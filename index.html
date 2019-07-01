@@ -1,0 +1,650 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Easy as the web</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/antistatique.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<style type="text/css" media="screen">
+				.slides section.has-dark-background,
+				.slides section.has-dark-background h1,
+				.slides section.has-dark-background h2,
+				.slides section.has-dark-background h3,
+				.slides section.has-dark-background h4,
+				.slides section.has-dark-background h5,
+				.slides section.has-dark-background h6 {
+					color: #fff;
+				}
+
+				.slides section.has-light-background,
+				.slides section.has-light-background h1,
+				.slides section.has-light-background h2,
+				.slides section.has-light-background h3,
+				.slides section.has-light-background h4,
+				.slides section.has-light-background h5,
+				.slides section.has-light-background h6 {
+					color: #000032;
+				}
+			</style>
+
+			<!--
+
+				# Primary palette
+
+					White:				#ffffff
+					Digital-dust: 		#eaf0f0
+					Pinkstatik: 		#e30074
+					Pinkstatik-dark: 	#a60055
+					Ninja-grey:			#808098
+					Midnight-blue:		#000032
+
+				# Secondary palette
+
+					Purple:				#b400dc
+					Electric-blue:		#40b3ff
+					Strawberry:			#d2005a
+					Sunshine:			#ff9600
+
+				-->
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<section data-background-color="#000032" class="has-dark-background">
+					<h1>Simple is the web</h1>
+					<h2>and why I love it so much.</h2>
+					<aside class="notes">
+						Bonjour ;-)
+					</aside>
+				</section>
+			</section>
+
+			<!-- Who? -->
+
+			<section>
+				<section data-background-color="#000032" class="has-dark-background" data-background="src/me.jpg">
+					<div style="background-color:rgba(0,0,32,0.6);padding:1em;margin-top:30%;text-align:left;">
+						<h3>Marc Friederich</h3>
+						<p>
+							<a href="https://twitter.com/zufrieden">@zufrieden</a> – <a href="https://github.com/zufrieden">github.com/zufrieden</a>
+						</p>
+						<p>Co-founder and Software designer at <a href="https://twitter.com/antistatique">@Antistatique</a></p>
+						<aside class="notes">
+							My name is Marc, I published my first website in 1998, didn't stop since ....
+						</aside>
+					</div>
+				</section>
+				<section data-background="src/antistatique.jpg">
+					<img src="src/logo_antistatique.png" alt="">
+					<aside class="notes">
+						Web agency in Geneva and Lausanne<br />
+						Human centric digital agency - build for the web - solution for our client.<br />
+						Always looking for great client, and awesome collaborators
+					</aside>
+				</section>
+			</section>
+
+
+			<!-- Act 1. -->
+			<section>
+				<section data-background-color="#000032" class="has-dark-background">
+					<h2><strong>Act 1.</strong><br />We love a <strong>simple</strong> web</h2>
+					<aside class="notes">
+						Act 1.<br />We love a <strong>simple</strong> web
+					</aside>
+				</section>
+				<section>
+					<h2>First came the hyperlink</h2>
+					<aside class="notes">
+						Simple as the hyperlink ...
+					</aside>
+				</section>
+				<section data-background="src/hypercard.png">
+					<aside class="notes">
+						My first program was a Hypercard quizz game I did at school about expo.01<br />
+						Linking panels was my first sip to interaction design.<br />
+						Hypercard was a largely inspiring piece of software for Tim Berners Lee to create the web.<br />
+						Ted Nelson first came with the hypertext concept</a> and Hypercard took it further
+						the web really popularised it.
+					</aside>
+				</section>
+				<section>
+					<h3 style="text-decoration: line-through;">hyperlink is bi-directional</h3>
+					<aside class="notes">
+						Link were designed as not bi-directional, you refer someone, but This someone doesn't have to know accept or reject, nor has anything to say about this relationship.
+						When you think about it, this is so much a missing opportunity, so poor comparing to relational databases, proper objects linking.
+						Yet I think this is precisely why web won over other technologies
+					</aside>
+				</section>
+				<section>
+					<h3>Propriatary vs Open</h3>
+					<aside class="notes">
+						<strong>Looking at propriatary solutions versus open web technologies</strong>
+						<p>If you think of Macromedia Flash technologies, and before that Java Applets, they tried to fill a missing gap of web features. Web enthousiasts try hard to push web standards and browsers implement thoses gaps</p>
+					</aside>
+				</section>
+				<section data-background="src/flashsites.png">
+					<aside class="notes">
+						<p>Looking at books refering flash sites from 2005 and realizing how close to web experiences we are now with CSS animations and Javascript. Yet to come with greater power with Houdini and full implementation of the Web Animation API. Not
+							to mention WebAssembly allowing us to imagine an even more powerfull web.</p>
+					</aside>
+				</section>
+			</section>
+
+
+			<!-- Act 2. -->
+			<section>
+				<section data-background-color="#000032" class="has-dark-background">
+					<h2><strong>Act 2.</strong><br />We love an <strong>accessible</strong> web</h2>
+					<aside class="notes">
+						Act 2.<br />We love an <strong>accessible</strong> web
+					</aside>
+				</section>
+				<section>
+					<h3>Accessibility in all ways</h3>
+					<aside class="notes">
+						You know accessibility matters. I mean accessibility for everyone to access informations and features. Anyone accross the globe and in the deep space. Poor connexions, old computers, without Javascript enabled, IE6 and yes Wget
+					</aside>
+				</section>
+				<section>
+					<h3>Show source</h3>
+					<aside class="notes">
+						I largely learned by viewing source of existing websites. Eventhough I understand CSS preprossessors and JavaScript compiler I feel really sad for the new generation. Open by default is an essential pillar to the web I love.
+					</aside>
+				</section>
+				<section>
+					<h3>Start with one file</h3>
+					<aside class="notes">
+						A friend of mine (with an IT background but now in the chemistry industry) asked me what technologies he should use to build a new web service. To try to prototype an app idea he had last week-end.
+						I know web developpement has evolve so much and we have tools to create safer and more robust solutions. Right but we need to find ways to increase accessibility to publish content, and publish apps.
+					</aside>
+				</section>
+				<section>
+					<h3>Open knowledge</h3>
+					<aside class="notes">
+						I feel hope of course with all informations, courses and ressources for beginners. Github offers a lot to new comers who'd like to try and build web stuff.
+						I will also mention later Beakerbrowser who vision a web without a server also to allow anyone to easily publish to the web. Accessibility to consume but also accessibility to publish is key to the web I love.
+					</aside>
+				</section>
+				<section>
+					<blockquote cite="https://blog.codinghorror.com/javascript-and-html-forgiveness-by-default/">
+						<p>
+							Forgiveness by default is absolutely required for the kind of large-scale, worldwide adoption that the web enjoys.
+						</p>
+						<footer>Jeff Atwood — <cite>JavaScript and HTML: Forgiveness by Default</cite></footer>
+					</blockquote>
+					<aside class="notes">
+						<h3>Forgiveness by default</h3>
+						Part of this accessibility is the forgiveness of the browser. You may not close your tag or misspell a color name but the browser will try is best to understand and interpret. But if it failed it will ignore and forgive.
+					</aside>
+				</section>
+			</section>
+
+			<!-- Act 3. -->
+			<section>
+				<section data-background-color="#000032" class="has-dark-background">
+					<h2><strong>Act 3.</strong><br />We love a <strong>resilient</strong> web</h2>
+					<aside class="notes">
+						Act 3.<br />We love a <strong>resilient</strong> web
+					</aside>
+				</section>
+				<section>
+					<h3>Still working for the past</h3>
+					<aside class="notes">
+						<p>
+							My mother's smartphone is an iPhone 3Gs. I know right, it sounds crazy not throwing a phone after 6 years. She asked me last week to fix the weather application as it didn't show the weather anymore. It appear that Yahoo weather API
+							used by native Apple's iOS6 weather app is not supported anymore.
+						</p>
+					</aside>
+				</section>
+				<section>
+					<blockquote>
+						<p>
+							"No problem mum, resilient web to the rescue!"
+						</p>
+					</blockquote>
+					<aside class="notes">
+						this is why I love the web right!
+					</aside>
+				</section>
+				<section>
+					<p>
+						Another argument to the winning open web platform.
+					</p>
+					<h2 class="fragment">No</h2>
+					<aside class="notes">
+						Weather websites just crash Safari and there are no other browser choices on the app store.
+					</aside>
+				</section>
+				<section>
+					<h3>A rejected promise</h3>
+					<aside class="notes">
+						I hate obsolescence, and I love theoretical web reslience. HTML, CSS and for a small part Javascript at their core have this rule :
+					</aside>
+				</section>
+				<section>
+					<h3>A today's browser can display a 1996 website</h3>
+					<h3 class="fragment">A 1996 browser can display a today's webpage</h3>
+					<aside class="notes">
+						Of course we broke this rule, it is so tempting to use this huge file of Javascript to scrolljack my page. Let's try our best to avoid those situations. And just take anowledgement and write down when we cross this line.
+					</aside>
+				</section>
+				<section>
+					<h4 class="monospaced">
+						&lt;noscript&gt;<br />
+						Oh fuck off!<br />
+						&lt;/noscript&gt;
+					</h4>
+					<aside class="notes">
+						It is so simple to have a noscript tag explaining why we need javascript in the first place.
+					</aside>
+				</section>
+				<section>
+					<h4 class="monospaced">
+						&lt;noscript&gt;<br />
+						You need javascript to access this content because we are to lazy to consider unobstructive javascript.
+						<br />
+						&lt;/noscript&gt;
+					</h4>
+					<aside class="notes">
+						I mean it. Try to really explain why Javascript is required here. You may also give another way of accessing the content.
+					</aside>
+				</section>
+				<section>
+					<h2>Unobstructive Javascript</h2>
+					<aside class="notes">
+						It means you care about not having it by default<br />
+						And guess what it's so simple to implement ...
+					</aside>
+				</section>
+				<section>
+					<!-- TODO add interaction exemple -->
+					<aside class="notes">
+
+					</aside>
+				</section>
+			</section>
+
+			<!-- Act 4. -->
+			<section>
+				<section data-background-color="#000032" class="has-dark-background">
+					<h2><strong>Act 4.</strong><br />We all love a <strong>fast</strong> web </h2>
+					<aside class="notes">
+						Act 4.<br />We all love a <strong>fast</strong> web
+					</aside>
+				</section>
+
+				<section>
+					<h3>So fast we forget data has to travel the world</h3>
+					<aside class="notes">
+						There are tones of performance optimisation to consider when building for the web. Images, Code, Server caching technics, etc.
+					</aside>
+				</section>
+				<section>
+					<blockquote>
+						<p>
+							Today's solutions are tomorrow's problems<br />
+						</p>
+					</blockquote>
+					<aside class="notes">
+						HTTP/1.0 all in one CSS file for all your website optimizations are not as fast as HTTP/2.0 having a set of css files for every page types. No silver bullet. We need to test, learn and unlearn when a new implementation come.
+					</aside>
+				</section>
+				<section>
+					<h3>Eventually data is already here localy</h3>
+					<aside class="notes">
+						I enjoy reading and testing offline first solutions. You may have heard of Hoodie which provide an offline first noBackend approach. Offline approach is a great step toward faster web. A more subtle approach to server-client strict model.
+						Service Workers API is now so widely supported there is no excuse to invest time in learning how it work and apply to any website.
+					</aside>
+				</section>
+				<section>
+					<!-- TODO add Going offline book cover -->
+					<aside class="notes">
+						I can not recommand enough Jermey Keith's new book "Going Offline". Dive in Service Workers API and explaining man-in-the-middle attacks and strategy to make your website faster for your user. PWA - Progressive Web Apps concept containing<br/>
+						https, ServiceWorkers and the manifest is not about apps only. Every website will benefit from this.
+						There will be abstraction layers to service workers to ease developper's life. As well explained in this book, every website (designwise, contentwise, architecturewise) will implement a different proxy strategy plus the API is already
+						abstracted enough to not use a library.
+					</aside>
+				</section>
+			</section>
+
+			<!-- Act 5. -->
+			<section>
+				<section data-background-color="#000032" class="has-dark-background">
+					<h2><strong>Act 5.</strong><br />We all love a <strong>distributed</strong> web</h2>
+					<aside class="notes">
+						Act 5.<br />We all love a <strong>distributed</strong> web
+					</aside>
+				</section>
+
+				<section>
+					<h3>We lost ground in the distributed web</h3>
+					<aside class="notes">
+						Today Everything is a SaaS third party scripts loading on your webpage. Main web actors web presence is everywhere and when it failed, Internet is down
+					</aside>
+				</section>
+
+				<section>
+					<blockquote cite="https://www.engadget.com/2017/03/02/amazon-admits-that-a-typo-took-the-internet-down-this-week/">
+						<p>Amazon admits that a typo took the internet down this week</p>
+					</blockquote>
+					<aside class="notes">
+						Remember march 2017 ?
+					</aside>
+				</section>
+
+				<section>
+					<h3>We just have to take power back</h3>
+					<aside class="notes">
+						This is not true, Internet and the web are distributed technologies. Those dependencies should not be the norm. Just question wether it is worth the risk to relay on other provider. Feeding web monsters with more data will not help us
+						have the distributed web we love.
+					</aside>
+				</section>
+				<section>
+					<!-- TODO add Beakerbrowser printscreen -->
+					<aside class="notes">
+						With initiatives like beakerborwser and dat:// protocol, there is an answer coming to a centralized web. Sir Tim Berners Lee's new project Solid also give a promissing view of decentralized web and data ownership.
+					</aside>
+				</section>
+
+			</section>
+
+			<!-- Act 6. -->
+			<section>
+				<section data-background-color="#000032" class="has-dark-background">
+					<h2><strong>Act 6.</strong><br />We love a <strong>diverse</strong> web</h2>
+					<aside class="notes">
+						Act 6.<br />We love a <strong>diverse</strong> web
+					</aside>
+				</section>
+
+				<section>
+					<!-- TODO add gif IE error -->
+					<aside class="notes">
+						I proudly displayed this animated gif on my website in 1999, god I was so wrong. We lived a long winter of innovation in web standards and web don't want to repeat history
+						<h3>Browser dominance is bad</h3>
+					</aside>
+				</section>
+
+				<section>
+					<!-- TODO add image https://upload.wikimedia.org/wikipedia/commons/7/74/Timeline_of_web_browsers.svg -->
+					<aside class="notes">
+						<h3>Browser war is not new</h3>
+					</aside>
+				</section>
+
+				<section>
+					<blockquote cite="https://bkardell.com/blog/Brief-ish-History-of-The-Web-Part-3.html">
+						<p>
+							For perspective, by the end of 1992 there were <strong>seven web browsers</strong> which allowed users to surf the vast ocean of what was at the time only <strong>22 known Websites</strong>.
+						</p>
+					</blockquote>
+					<aside class="notes">
+						7 browser, 22 websites
+					</aside>
+				</section>
+
+				<section>
+					<h3>Get away from monopoly</h3>
+					<aside class="notes">
+						It is our responsability to install and test our work on other browsers (I know there are now just <a href="https://en.wikipedia.org/wiki/Comparison_of_browser_engines">6 different browser engines</a> :-/).
+					</aside>
+				</section>
+
+				<section>
+					<h2>IndieWeb movement</h2>
+					<aside class="notes">
+						There is a growing indie web movement praising for open and standard technologies. Helping the web stay as diverse as we can. Webmentions and ActivityPub are exemple of open standards allowing a more diverse web allowing social media
+						platforms to interact with each other.
+					</aside>
+				</section>
+
+				<section>
+					<blockquote cite="https://twitter.com/badnetworker/status/1133363823728091136?s=12">
+						<p>
+							1999: there are millions of websites all hyperlinked together<br />
+							2019: there are four websites, each filled with screenshots of the other three.
+						</p>
+						<footer>
+							David Masad @badnetworker
+						</footer>
+					</blockquote>
+					<aside class="notes">
+						NO please keep the web diverse !
+					</aside>
+				</section>
+
+			</section>
+
+			<!-- Act 7. -->
+			<section>
+				<section data-background-color="#000032" class="has-dark-background">
+					<h2><strong>Act 7.</strong><br />
+						We love an <strong>empowering</strong> web</h2>
+					<aside class="notes">
+						Act 7.<br />We love an <strong>empowering people</strong> web
+					</aside>
+				</section>
+
+				<section>
+					<h3>Popups were so great</h3>
+					<aside class="notes">
+						<p>A version of my personal website was build over the concept of popup, you can define size and position with a little line of Javascript. From a user perspective, popup were just ads poping up when she exits a webpage. So browsers
+							started providing popup blockers by default.</p>
+					</aside>
+				</section>
+				<section>
+					<h3>It's a perspective question</h3>
+					<aside class="notes">
+						Marketing people just closed an amazing web technologies just by abusing it. Or people get power back by choosing to use browser with popup blockers.
+					</aside>
+				</section>
+				<section>
+					<!-- TODO: accepting cookie feature gif?  -->
+					<aside class="notes">
+						Now I may choose the next browser with native ad blocker technology or accepting cookies feature and so marketing has to be creative again.
+					</aside>
+				</section>
+			</section>
+
+			<!-- Act 8. -->
+			<section>
+				<section data-background-color="#000032" class="has-dark-background">
+					<h2><strong>Act 8.</strong><br />We love an <strong>open</strong> web </h2>
+					<aside class="notes">
+						Act 8.<br />We love an <strong>open</strong> web
+					</aside>
+				</section>
+
+				<section>
+					<h3>RSS as an exemple</h3>
+					<aside class="notes">
+						<p>RSS (Really Simple Syndication) is another exemple of simple web standards winning slowly over time. You may think RSS died with Google Reader, or social media took the place as an intermediate syndication platform. Podcasts uses RSS
+							standards for instance. Google trends show a clear decline of the term "RSS" but the reality is more subtle.</p>
+					</aside>
+				</section>
+
+				<section>
+					<blockquote cite="https://twobithistory.org/2018/12/18/rss.html">
+						<p>
+							For a while, before a third of the planet had signed up for Facebook, RSS was simply how many people stayed abreast of news on the internet.
+						</p>
+						<footer>
+							Aaron Swartz
+						</footer>
+					</blockquote>
+					<aside class="notes">
+						...
+					</aside>
+				</section>
+
+				<section>
+					<h3>Designed to embrace new usages</h3>
+					<aside class="notes">
+						<p>The way RSS was designed (read <a href="https://twobithistory.org/2018/12/18/rss.html">a full story</a> to understand its origins an forks) shows how open standards allow innovations to grow</p>
+					</aside>
+				</section>
+
+			</section>
+
+			<!-- Act 9. -->
+			<section>
+				<section data-background-color="#000032" class="has-dark-background">
+					<h2><strong>Act 9.</strong><br />We love an <strong>evolving</strong> web</h2>
+					<aside class="notes">
+						Act 9.<br />We love an <strong>evolving</strong> web
+					</aside>
+				</section>
+
+				<section>
+					<h3>Without reloading the page</h3>
+					<aside class="notes">
+						<p>
+							Framesets were so good. They were responsives by design, gave better performances to a website by loading only the content requested and also fun to play with. I love that we accepted to free the screen space and embrace a full
+							scrolling experience at least for a while. I think both Fixed CSS positionning and SEO nearly killed framesets and then mobiles came and gave the <em>coup de grace</em>.
+						</p>
+					</aside>
+				</section>
+
+				<section>
+					<!-- TODO: https://twitter.com/sonniesedge/status/1134439901624176640 -->
+				</section>
+
+				<section>
+					<h3>Let the web evolve</h3>
+					<aside class="notes">
+						<p>
+							Althought it is nice to remember frames, but nostalgy doesn't really work when we think of the web. Layout systems evolve with usage but content like a liquid element take is place in the medium.
+						</p>
+					</aside>
+				</section>
+
+			</section>
+
+			<!-- Act 10. -->
+			<section>
+				<section data-background-color="#000032" class="has-dark-background">
+					<h2><strong>Act 10.</strong><br />We love a <strong>playfull</strong> web</h2>
+					<aside class="notes">
+						Act 10.<br />We love a <strong>playfull</strong> web
+					</aside>
+				</section>
+
+				<section>
+					<h3>A javascript library to round corners</h3>
+					<aside class="notes">
+						<p>
+							In 2006, I used some javascript to round corner of a div. It was really modern to use round corner because they were not possible to do (without tricks). I am not ashamed, it was totaly unobstructive and progressive enhancement in mind.
+							No javascript, you get square corners. This is still a playfull web nowadays. Trying to push the boundaries a bit.
+						</p>
+					</aside>
+				</section>
+				<section>
+					<h3>Enthousiasm drives us</h3>
+					<aside class="notes">
+						<p>
+							Call it our enthousiasm. But we can't wait using a new web feature. We don't want to wait for a complete acceptance from browser vendor to start playing arround. When we get a full acceptance of border-radius (IE9 in 2011) all the web
+							became flat and squared design... At this point progressive enhancement became acceptable for our clients.
+						</p>
+					</aside>
+				</section>
+
+
+			</section>
+
+			<!-- And now what  -->
+			<section>
+				<section data-background-color="#000032" class="has-dark-background">
+					<h2>Certitudes out of the way, but always keep web core values</h2>
+					<aside class="notes">
+						Certitudes out of the way, but always keep web core values
+					</aside>
+				</section>
+			</section>
+
+
+			<!-- ### MERCI -->
+
+			<section>
+				<section data-background="#e30074">
+					<h1>Merci !</h1>
+					<aside class="notes">
+						Thank you
+					</aside>
+				</section>
+				<section data-background="#000032">
+					<h3>Slides available forever here</h3>
+					<a href="https://zufrieden.github.io/slides-easy-as-web/">https://zufrieden.github.io/slides-easy-as-web/</a>
+				</section>
+				<section>
+					<h1>©</h1>
+					<table>
+						<tbody>
+							<tr>
+								<td width="50%">Présentation</td>
+								<td width="50%">reveal.js</td>
+							</tr>
+							<tr>
+								<td>Typography</td>
+								<td>Noto Sans Regular<br>
+									Noto Sans Bold</br>
+									Noto Mono</td>
+							</tr>
+							<tr>
+								<td>Emojis</td>
+								<td>emojione.com</td>
+							</tr>
+						</tbody>
+					</table>
+					<aside class="notes">
+						Credits
+					</aside>
+				</section>
+			</section>
+
+			<section>
+				<section data-background="#000032">
+					<h3>Questions/Réponses</h3>
+					<img class="plain" src="lib/svg/emoji/1f984.svg">
+					<p>Maintenant ou plus tard ... <a href="https://twitter.com/zufrieden">@zufrieden</a></p>
+				</section>
+			</section>
+
+
+		</div>
+	</div>
+	<script src="js/reveal.js"></script>
+
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			dependencies: [
+				{ src: 'plugin/markdown/marked.js' },
+				{ src: 'plugin/markdown/markdown.js' },
+				{ src: 'plugin/notes/notes.js', async: true },
+				{ src: 'plugin/highlight/highlight.js', async: true }
+			]
+		});
+	</script>
+	</body>
+	</html>
